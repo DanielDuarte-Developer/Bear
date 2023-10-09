@@ -50,4 +50,11 @@ section article {
                     width: 40%;
                 } 
                 
-figure img { max-width: 100%;}                 
+figure img { max-width: 100%;}
+
+/*Introdução de uma meida query para os telemoveis*/
+@media (max-width: 640px){
+    section article{ width: 100%;}
+    
+    header h1{ display: none;}
+}
